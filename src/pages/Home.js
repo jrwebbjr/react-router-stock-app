@@ -2,6 +2,6 @@ import { Link } from "react-router-dom";
 
 export default function Home(){
     return (
-        <h1>Welcome to iStock</h1>
+        <h1>Welcome to iStonk</h1>
     )
 }

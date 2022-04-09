@@ -20,7 +20,7 @@ export default function Dashboard(props){
                                     <Link className="" to={`/stocks/${element.symbol}`}>{element.name}</Link>
                                     </td>
                                 <td className="row">{element.symbol}</td>
-                                <td className="row">{element.lastPrice}</td>
+                                <td className="row last-row">{element.lastPrice}</td>
                             </tr>
                         </>
                     )

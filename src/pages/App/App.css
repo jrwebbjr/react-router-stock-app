@@ -12,14 +12,18 @@
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   font-size: 40px;
-  color: black;
+}
+
+.nav-item {
+  margin: 50px;
 }
 
 .title {
   color: white;
+  margin-left: 100px;
+  margin-right: auto;
 }
 
 .Dashboard {
@@ -36,10 +40,16 @@
 
 .table-header {
   color: black;
+  border-bottom: 10px solid black;
 }
 
 .row {
   padding: 50px;
+  border-right: 10px solid black
+}
+
+.last-row {
+  border: none;
 }
 
 .Show {

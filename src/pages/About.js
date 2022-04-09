@@ -2,6 +2,6 @@
 
 export default function About(){
     return (
-        <h1>This is the About Page</h1>
+        <h1>iStonk is the worlds best stonk app</h1>
     )
 }
