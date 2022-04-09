@@ -8,9 +8,14 @@
 }
 
 .Nav {
-  text-align: left;
+  text-align: center;
+  justify-content: space-around;
+  font-size: xxx-large;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
 
 
 

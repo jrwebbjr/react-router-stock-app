@@ -1,5 +1,7 @@
-export default function About(){
+export default function Stock(props){
     return (
-        <h1>Stock (Show) Page</h1>
+        <div>
+            <h1>{props.name}</h1>
+        </div>
     )
 }
