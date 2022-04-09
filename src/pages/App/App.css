@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Space Mono', monospace;
 }
 
 .App-logo {
@@ -8,16 +9,48 @@
 }
 
 .Nav {
+  display: flex;
   text-align: center;
+  align-items: center;
   justify-content: space-around;
-  font-size: xxx-large;
+  background-color: black;
+  font-size: 40px;
+  color: black;
 }
 
-table, th, td {
-  border: 1px solid black;
+.title {
+  color: white;
 }
 
+.Dashboard {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
 
+.table {
+  border: 10px solid black;
+  font-size: xx-large;
+  color: red;
+}
+
+.table-header {
+  color: black;
+}
+
+.row {
+  padding: 50px;
+}
+
+.Show {
+  display: Flex;
+  flex-flow: column;
+  font-size: 30px;
+}
+
+.show-name {
+  font-size: 100px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

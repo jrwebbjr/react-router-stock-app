@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
 export default function Home(){
     return (
-        <h1>Home Page</h1>
+        <h1>Welcome to iStock</h1>
     )
 }
